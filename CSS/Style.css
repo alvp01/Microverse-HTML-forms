@@ -1,1 +1,5 @@
 /*Empty CSS, not included in the HTML yet*/
+#registerForm {
+  display: flex;
+  flex-direction: column;;
+}
