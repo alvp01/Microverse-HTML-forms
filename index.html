@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-
-    <title>Microverse HTML form</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>HTML Forms</title>
+</head>
+<body>
     <header class="landing-header">
       <button type="button" name="Sign In" class="Sign-btn">Sign In</button>
     </header>
-    <section>
-      <main>
+    <section class="main-form-container">
+
+        <div class="form-details">
         <section>
           <section id="logo">
             <p>LOGO</p>
+            <p>icon1</p>
+            <p>icon2</p>
+            <p>icon3</p>
           </section>
-          <section id="icons">
-            <p>icon1</p><p>icon2</p><p>icon3</p>
-          </section>
-        </section>
-        <form class="" action="#" method="post" id="registerForm">
-          Email address
-          <input type="text" name="userName" value="">
-          Phone number
-          <input type="number" name="phoneNumber" value="">
-          Password
-          <input type="password" name="password" value="">
-        </form>
-      </main>
+          <form class="sign-in-form">
+          <h2>Create an Intuit account</h2>
+          <p style="text-align: center">One account for everything Intuit, including Mint. <br> <a class="learn-more" href="#">Learn more </a> </p>
+            <label for="email">Email address</label>
+            <div class="email-input">
+              <input type="email" name="userName" placeholder="email">
+            </div>
+            <label for="phone-number">Phone number</label>
+            <div class="phone-input">
+              <input type="number" name="phone-number" placeholder="Phone Number">
+  
+            </div>
+            <label for="password">Password</label>
+            <div class="password-input">
+              <input type="password" name="password" placeholder="password">
+            </div>
+            <button type="submit" class="create-account">Create Account</button>
+          </form>
+        </div>
     </section>
     <footer>
-
+  
     </footer>
-
+  
   </body>
 </html>
