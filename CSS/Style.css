@@ -1,5 +1,69 @@
 /*Empty CSS, not included in the HTML yet*/
-#registerForm {
+/* #registerForm {
   display: flex;
   flex-direction: column;;
+} */
+
+html {
+  font-family: "AvenirNext, Avenir, Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sign-in-form {
+  margin: auto;
+  border: 1px solid #0e0d0d;
+  padding: 30px;
+}
+
+.main-form-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-details {
+  margin: auto;
+  padding: auto;
+}
+
+.learn-more {
+  text-decoration: none;
+  color: #4790f0;
+  font-size: 12px;
+  padding: 5px 0 0 0;
+  text-align: center;
+}
+
+label[for="email"],
+[for="phone-number"],
+[for="password"] {
+  font-size: 14px;
+}
+
+input[type="email"],
+[type="number"],
+[type="password"] {
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  outline: 0;
+  font-size: .8em;
+  height: 34px;
+  margin: 1em 0 1em 0;
+  border-radius: 3px;
+}
+
+.create-account {
+  background-color: #06489e;
+  color: white;
+  width: 337px;
+  min-width: 160px;
+  padding: 0 0 0 0;
+  outline: 0;
+  font-size: 1em;
+  margin: 1em 0 1em 0;
+  height: 54px;
+  border-radius: 5px;
+  cursor: pointer;
 }
