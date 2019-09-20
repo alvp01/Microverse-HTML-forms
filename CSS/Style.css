@@ -67,3 +67,100 @@ input[type="email"],
   border-radius: 5px;
   cursor: pointer;
 }
+
+.landing-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Sign-btn{
+  background-color: #06489e;
+  color: white;
+  width: 125px;
+  min-width: 125px;
+  padding: 0 0 0 0;
+  outline: 0;
+  font-size: 1em;
+  margin: 1em 0 1em 0;
+  height: 45px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-text{
+  text-decoration: none;
+}
+.forgot{
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.icons img {
+  padding: 0px 10px 0px 15px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.icon-text {
+  font-size: 25px;
+  padding: 0px 0px 15px 0px;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+  display: inline;
+}
+.main-logo-title{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 35px;
+  color: grey;
+  cursor: pointer;
+}
+
+.legal-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: grey;
+  font-size: 14px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.legal-link{
+  color: grey;
+  text-decoration: none;
+  padding: 0 5px 0 5px;
+  font-size: 14px;
+}
+/* @media screen and (min-width: 481px) { */
+/* start of medium tablet styles */
+
+/* } */
+
+@media screen and (max-width: 360px) {
+/* start of phone styles */
+.landing-header{
+  display: flex;
+  justify-content: space-around;
+}
+  .header-text{
+    width: 60%;
+    font-size: 15px;
+  }
+  .Sign-btn{
+    width: 40%;
+  }
+  .main-form-container{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
