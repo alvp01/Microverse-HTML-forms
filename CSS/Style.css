@@ -41,7 +41,7 @@ label[for="email"],
 }
 
 input[type="email"],
-[type="number"],
+[type="tel"],
 [type="password"] {
   width: 320px;
   min-width: 160px;
