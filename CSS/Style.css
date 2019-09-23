@@ -103,19 +103,29 @@ input[type="email"],
   cursor: pointer;
 }
 .icon-text {
-  font-size: 25px;
+  font-size: 20px;
   padding: 0px 0px 15px 0px;
   cursor: pointer;
+  color: grey;
+  font-weight: lighter;
 }
 li {
   list-style-type: none;
   display: inline;
 }
+.icons{
+  margin-left: -25px;
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .main-logo-title{
-  text-align: center;
-  font-weight: bolder;
-  font-size: 35px;
-  color: grey;
+  align-content: center;
+  justify-content: center;
+  height: 36px;
+  width: 118px;
   cursor: pointer;
 }
 
@@ -137,6 +147,20 @@ li {
   text-decoration: none;
   padding: 0 5px 0 5px;
   font-size: 14px;
+}
+.disclaimer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+}
+.disclaimer-text{
+  color: grey;
+  font-style: italic;
+}
+.disclaimer-text a{
+  text-decoration: none;
 }
 /* @media screen and (min-width: 481px) { */
 /* start of medium tablet styles */
